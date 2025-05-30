@@ -74,8 +74,13 @@ count(*) as total_orders
 from retail_sales
 group by category;
 -- Q.4 Write a SQL query to find the average age of customers who purchased items from the 'Beauty' category.
-
+select avg(age)
+from retail_sales
+where category='Beauty';
 -- Q.5 Write a SQL query to find all transactions where the total_sale is greater than 1000.
+select *
+from retail_sales
+where total_sale >1000;
 -- Q.6 Write a SQL query to find the total number of transactions (transaction_id) made by each gender in each category.
 -- Q.7 Write a SQL query to calculate the average sale for each month. Find out best selling month in each year
 -- Q.8 Write a SQL query to find the top 5 customers based on the highest total sales 
