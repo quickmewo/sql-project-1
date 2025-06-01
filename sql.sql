@@ -89,7 +89,7 @@ SELECT *
 FROM retail_sales
 WHERE total_sale > 1000;
 
--- Q6：统计每个性别在各类商品中的购买笔数
+-- Q6：统计每个性别在各类商品中的购买订单数
 SELECT 
   category,
   gender,
