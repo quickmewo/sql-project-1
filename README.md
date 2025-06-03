@@ -148,4 +148,4 @@ WHERE rank_num = 1;
 
 ---
 
-如需查看完整 SQL 脚本与查询语句，请参阅本项目内的 `analysis.sql` 文件。
+如需查看完整 SQL 脚本与查询语句，请参阅本项目内的 `3_analysis_queries.sql` 文件。
